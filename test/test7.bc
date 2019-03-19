@@ -1,0 +1,3 @@
+define ze (m,n,o) { return (m + n + o) }
+x=ze(1,3,2)
+x

@@ -1,0 +1,9 @@
+x=read()
+x=x+2
+x
+/*
+Expected (from bc):
+9.0
+ Got (our program):
+9.0
+*/

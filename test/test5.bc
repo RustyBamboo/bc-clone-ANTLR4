@@ -1,0 +1,8 @@
+/* test comment */
+/* testing /* comment */
+/*
+Expected (from bc):
+
+ Got (our program):
+
+*/

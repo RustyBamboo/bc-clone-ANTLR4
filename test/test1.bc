@@ -1,0 +1,10 @@
+x=5.0
+y=7.0
+print x,y,x+y
+print x,y,y-x
+/*
+Expected (from bc):
+5.07.012.05.07.02.0
+ Got (our program):
+5.07.012.05.07.02.0
+*/
