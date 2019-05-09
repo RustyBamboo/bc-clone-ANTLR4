@@ -1,12 +1,12 @@
-Group Members: Daniel Volya, Nicholas Suhlman
+# BC clone using ANTLR4
 
-Simply run 'make'.
+Simply run `make`.
 This will access Makefile and do the following:
-    - Generate ANTLR4 lexer files (antlr4 calculator.g4 -visitor)
-    - Compile java (javac *.java)
-    - Run automated test script (./auto-test.sh)
+- Generate ANTLR4 lexer files (antlr4 calculator.g4 -visitor)
+- Compile java (javac *.java)
+- Run automated test script (./auto-test.sh)
 
-Code Layout:
+# Code Layout:
 - calculator.g4 contains ANTLR4 Grammar
 - calculator.java contains main function that read in a file opens ANTLR4 parsetree
 - CalculatorVisitor.java contains all visitor functions and respective handling
@@ -17,7 +17,7 @@ Code Layout:
 - auto-test.sh is a bash script to automatically run bc as well as our program and print both results
 - test directory contains all test files
 
-Tests:
+# Tests:
 - test1.bc: assignment and print list
 - test2.bc: assignment and simple math operation
 - test3.bc: bc special functions (s, c, l, e)
